@@ -1,0 +1,31 @@
+RESTFUL ROUTES
+
+NAME        URL             VERB         DESC.
+===========================================================================
+INDEX       /dogs           GET      Display list of all Dogs
+NEW         /dogs/new       GET      Display form to make new dog
+CREATE      /dogs           POST     Add new dog to DB
+SHOW        /dogs/:id       GET      Shows more info about one dog
+EDIT        /dogs/:id/edit  GET      Show edit form for one dog
+UPDATE      /dogs/:id       PUT      Update a particular dog, then redirect
+DESTROY     /dogs/:id       DELETE   Delete a particular dog, then redirect
+
+
+CRUD - Create Read Update Destroy
+
+
+------------------------------------------------------------------
+Owl Lake
+https://farm9.staticflickr.com/8471/8137270056_21d5be6f52.jpg
+
+Onyx Falls
+https://farm4.staticflickr.com/3707/9721902877_8afcc255c7.jpg
+
+Kestral Glade
+https://farm7.staticflickr.com/6123/5916494333_2110997285.jpg
+
+Whispering Woods
+https://farm4.staticflickr.com/3640/3670547699_14afeb4f7c.jpg
+
+Desert Oasis
+https://farm6.staticflickr.com/5581/15074322858_1f8e2df158.jpg
